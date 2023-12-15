@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+arduino_nano_connect = { version = "0.6.0", features = ["rp2040-e5"] }
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
+embedded-hal = { version = "0.2.7", features = ["unproven"] }
+panic-halt = "0.2.0"
